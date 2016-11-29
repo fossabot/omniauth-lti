@@ -72,6 +72,9 @@ module OmniAuth
 
       def valid_lti?
         key = request.params['oauth_consumer_key']
+        if !options.oauth_credentials.key?(key)
+          return false
+        end
         log :info, "Checking LTI params for key #{key}: #{request.params}"
         @tp = IMS::LTI::ToolProvider.new(key, options.oauth_credentials[key], request.params)
         @tp.valid_request?(request).tap do |valid|
