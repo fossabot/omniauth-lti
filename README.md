@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ffirecracker%2Fomniauth-lti.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ffirecracker%2Fomniauth-lti?ref=badge_shield)
+
 OmniAuth LTI
 ============
 
@@ -49,3 +51,6 @@ Outcomes
 
 [ims-lti gem]: https://github.com/instructure/ims-lti
 [omniauth-lti-example-webapp]: https://github.com/xaviaracil/omniauth-lti-example
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ffirecracker%2Fomniauth-lti.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Ffirecracker%2Fomniauth-lti?ref=badge_large)
